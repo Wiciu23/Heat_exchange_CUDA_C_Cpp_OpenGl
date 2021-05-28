@@ -1,0 +1,19 @@
+﻿Build started 28.05.2021 23:19:04.
+     1>Project "C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\test\test.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         E:\Pliki programów (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\Boltzman_cuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" glfw3.lib opengl32.lib glew32s.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\Boltzman_cuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\Boltzman_cuda.lib" /MACHINE:X86 Debug\kernel.cu.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         test.vcxproj -> C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\Boltzman_cuda.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Wiciu\Desktop\Inzynierka\INZYNIERKA_V1\cuda_open_gl\test\test\test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
